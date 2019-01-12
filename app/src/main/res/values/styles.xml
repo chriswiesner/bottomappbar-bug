@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Demo.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor">#FFF3F3F3</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent_light</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_light</item>
+        <item name="colorOnPrimary">?android:textColorPrimary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="preferenceTheme">@style/Demo.Light.Preference</item>
+        <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation.Tinted</item>
+    </style>
+
+    <style name="Demo.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation.Tinted</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:statusBarColor">#212021</item>
+        <item name="colorPrimary">@color/dark_accent</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_dark</item>
+        <item name="colorSecondary">@color/dark_accent</item>
+        <item name="colorSecondaryVariant">@color/accent_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/dark_windowbackground</item>
+        <item name="dialogCornerRadius">16dp</item>
+    </style>
+
+    <style name="Toolbar.Button.Navigation.Tinted" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Demo.Light.Preference" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="android:tint">#757575</item>
+    </style>
+
+    <style name="Demo.Dark.Preference" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="android:tint">#80FFFFFF</item>
+    </style>
+
+    <style name="MyBottomBarOverlay" parent="ThemeOverlay.MaterialComponents.BottomAppBar.Surface">
+        <item name="android:colorControlNormal">#ffff00</item>
+    </style>
+
+</resources>

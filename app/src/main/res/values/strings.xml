@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidThemeBugDemo</string>
+    <string name="pref_key_theme">pref_key_theme</string>
+    <string name="settings_theme_light_label">Light</string>
+    <string name="settings_theme_dark_label">Dark</string>
+    <string name="settings_theme_light_value">light</string>
+    <string name="settings_theme_dark_value">dark</string>
+    <string name="settings">Settings</string>
+</resources>

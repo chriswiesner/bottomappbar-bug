@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FFFFFF</color>
+    <color name="primary_dark">#FFF0F0F0</color>
+    <color name="primary_light">#FFFFFF</color>
+    <color name="accent">#FFF44336</color>
+
+    <color name="dark_windowbackground">#212121</color>
+    <color name="dark_accent">#EF5350</color>
+    <color name="dark_primary">#424242</color>
+    <color name="dark_primary_dark">#2F2F2F</color>
+
+    <color name="accent_light">#99F44336</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+
+</resources>
